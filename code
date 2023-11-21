@@ -167,4 +167,9 @@ mat2 = [[3,4,6],[5,6,7],[6,56,71]]
 c = np.dot(mat1,mat2)
 print(c)
 
-5 
+5 import numpy as np
+
+f = np.array([0, 12, 45.21, 34, 99.91,32])
+
+c = (f-32)*(5/9)
+print(c)
