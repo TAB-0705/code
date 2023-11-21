@@ -109,7 +109,8 @@ def ordinal():
         print(b.get(a))
     else:
         print('')
-    print(b)
+    for i,j in b.items():
+        print(i,j)
 ordinal()
 
 a = input()
