@@ -135,3 +135,12 @@ def Records():
     print(o)
 
 Records()
+
+a = int(input())
+b = input()
+
+def center():
+    c = b.center(a, ' ')
+    print(c)
+
+center()
